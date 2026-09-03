@@ -12,7 +12,6 @@
 <p align="center">
   <a href="https://amy-villa-signal-gallery.vercel.app/recruiter-proof"><strong>Recruiter Fast Path</strong></a> ·
   <a href="https://amy-villa-signal-gallery.vercel.app/">Portfolio</a> ·
-  <a href="https://www.linkedin.com/in/amy-villa-5830aa433/">LinkedIn</a> ·
   <a href="mailto:amyv.dev@gmail.com">Email</a>
 </p>
 
@@ -58,4 +57,4 @@ I have **3+ years of hands-on experience across digital systems, AI-assisted wor
 
 I can walk through a public code sample, trace a request from interface to API and persisted result, run focused tests, explain the optional AI/fallback path, make a small scoped improvement, and distinguish implemented behavior from a production roadmap. Details are in the [Recruiter Fast Path guide](https://github.com/Amyvdev1/amy-technical-portfolio/blob/main/docs/RECRUITER_FAST_PATH.md).
 
-**Reach out:** [amyv.dev@gmail.com](mailto:amyv.dev@gmail.com) · [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/) · [Portfolio](https://amy-villa-signal-gallery.vercel.app/)
+**Reach out:** [amyv.dev@gmail.com](mailto:amyv.dev@gmail.com) · [Portfolio](https://amy-villa-signal-gallery.vercel.app/)
