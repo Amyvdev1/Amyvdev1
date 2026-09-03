@@ -36,6 +36,16 @@ For a quick technical review, visit the [Recruiter Fast Path](https://amy-villa-
 | **Frontend accessibility practice** | [AccessPath Console](https://github.com/Amyvdev1/accessible-workflow-console) | Semantic HTML, keyboard controls, visible focus, form recovery, live status, responsive presentation, axe/Vitest checks. |
 | **Product and interaction design** | [Signal Engine Portfolio](https://github.com/Amyvdev1/amy-technical-portfolio) | React/TypeScript portfolio, interactive workflow studies, responsive presentation, recruiter-proof route, and project walkthroughs. |
 
+## Technical review paths
+
+For a short, evidence-first technical review, these public guides point to the implementation rather than relying on broad labels:
+
+| Conversation | Start here | Reviewable boundary |
+|---|---|---|
+| **API integration and AI workflow behavior** | [ForgeFlow integration walkthrough](https://github.com/Amyvdev1/forgeflow-ai-automation/blob/main/docs/INTEGRATION_WALKTHROUGH.md) | Typed REST requests, SQLite run history, optional AI/fallback state, local Docker topology, and explicit production boundaries. |
+| **Workflow API and integration errors** | [ClearRoute API consumer guide](https://github.com/Amyvdev1/clearrout-api/blob/main/docs/API_CONSUMER_GUIDE.md) | State graph, `404`/`403`/`409`/`422` contracts, audit events, and a demonstration—not production—role boundary. |
+| **Accessible front-end implementation** | [AccessPath code tour](https://github.com/Amyvdev1/accessible-workflow-console/blob/main/docs/CODE_TOUR.md) | Semantic UI, keyboard controls, validation feedback, live status, and focused axe/Vitest checks; not a compliance certification. |
+
 ## How I approach the work
 
 ```text
