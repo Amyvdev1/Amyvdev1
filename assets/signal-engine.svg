@@ -1,0 +1,38 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Amy Villa signal systems">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07110E"/>
+      <stop offset="0.53" stop-color="#0B2019"/>
+      <stop offset="1" stop-color="#11130E"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(1014 205) rotate(90) scale(160)">
+      <stop stop-color="#EBFFE9"/>
+      <stop offset="0.18" stop-color="#9CF2C7"/>
+      <stop offset="0.49" stop-color="#238C67"/>
+      <stop offset="1" stop-color="#0B241B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="775" y="-35" width="478" height="478" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#C8EBD8" stroke-opacity="0.12"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <path d="M0 327H1280" stroke="#B7E6C9" stroke-opacity="0.2"/>
+  <path d="M54 67H578" stroke="#A8F0C7" stroke-opacity="0.55"/>
+  <path d="M54 85H390" stroke="#A8F0C7" stroke-opacity="0.2"/>
+  <circle cx="1014" cy="205" r="160" fill="url(#orb)" filter="url(#glow)"/>
+  <circle cx="1014" cy="205" r="143" stroke="#A6E9C7" stroke-opacity="0.42"/>
+  <circle cx="1014" cy="205" r="102" stroke="#A6E9C7" stroke-opacity="0.31"/>
+  <circle cx="1014" cy="205" r="66" stroke="#A6E9C7" stroke-opacity="0.38"/>
+  <circle cx="1014" cy="205" r="29" fill="#9DF2C8" fill-opacity="0.75"/>
+  <path d="M853 205H1175M1014 44V366" stroke="#A6E9C7" stroke-opacity="0.15"/>
+  <path d="M54 305H416" stroke="#CFE9D8" stroke-opacity="0.2"/>
+  <text x="54" y="151" fill="#94E7BC" font-family="monospace" font-size="13" letter-spacing="4">AMY VILLA / SOFTWARE SYSTEMS</text>
+  <text x="54" y="214" fill="#F1F5F0" font-family="Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="-3">FROM AMBIGUITY</text>
+  <text x="54" y="274" fill="#B7E9CD" font-family="Georgia, serif" font-size="58" font-style="italic">TO SIGNAL.</text>
+  <text x="54" y="362" fill="#AABAB0" font-family="monospace" font-size="12" letter-spacing="2">INTERFACES · AUTOMATION · API FOUNDATIONS · HUMAN REVIEW</text>
+  <text x="914" y="397" fill="#8DCAAA" font-family="monospace" font-size="11" letter-spacing="2">SYSTEM / RESPONSIVE</text>
+</svg>
