@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Software Developer · AI Automation · Workflow Systems</strong><br />
-  Miami, Florida · Open to remote opportunities · Native English &amp; Spanish
+  Open to remote opportunities · Native English &amp; Spanish
 </p>
 
 <p align="center">
