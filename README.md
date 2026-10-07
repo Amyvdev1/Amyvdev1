@@ -1,40 +1,48 @@
 # Amy Villa
 
-## AI Automation & Technical Solutions Engineer
+### AI Automation & Technical Solutions Engineer
 
-I build API-driven automation, implementation systems, and developer-facing product experiences that make complex technical workflows easier to understand, debug, and operate.
+I build API integrations, inspectable automation, and developer tools that explain what happened, why it failed, and how to recover.
 
-### Start here
+My portfolio focuses on practical engineering questions: validating a tool call before execution, preserving webhook state under retries, making API errors actionable, and keeping human review visible.
 
-- **[MailTrace DX Lab](https://github.com/Amyvdev1/Amyvdev1-mailtrace-dx-lab)** — developer-facing observability for signed webhooks, idempotency, retries, event ordering, debugging state, and predictable API failures.
-- **[ForgeFlow AI Automation](https://github.com/Amyvdev1/forgeflow-ai-automation)** — full-stack AI-assisted workflow execution with validated inputs, persistence, transparent fallback behavior, testing, Docker, and CI.
-- **[Signal Engine / Technical Portfolio](https://github.com/Amyvdev1/amy-technical-portfolio)** — recruiter and technical-reviewer navigation across product engineering, APIs, workflow systems, and developer experience.
-- **[ClearRoute API](https://github.com/Amyvdev1/clearrout-api)** — typed API validation, explicit workflow state, predictable errors, audit events, testing, and CI.
-- **[AccessPath Console](https://github.com/Amyvdev1/accessible-workflow-console)** — product engineering focused on keyboard-first interaction, recovery states, semantic interfaces, and automated accessibility checks.
+**[Explore my portfolio](https://amy-villa-signal-gallery.vercel.app/) · [Recruiter review guide](https://amy-villa-signal-gallery.vercel.app/recruiter-proof) · [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/)**
 
-### What I build
+### A useful five-minute review
 
-- AI-assisted automation and workflow systems
-- API-driven technical implementations
-- Developer-facing debugging and product experiences
+1. **API and developer experience:** inspect [DX Orbit](https://github.com/Amyvdev1/dx-orbit), an OpenAPI scorecard with traceable findings, revision comparison, and report export.
+2. **Agent tool boundaries:** inspect [ToolTrust](https://github.com/Amyvdev1/tooltrust), a deterministic lab for JSON Schema validation, permissions, human confirmation, and simulated execution traces.
+3. **Full-stack workflow engineering:** inspect [ForgeFlow](https://github.com/Amyvdev1/forgeflow-ai-automation), including validated inputs, persisted run history, visible fallback behavior, and human review.
 
-### Core focus
+Open the tests and CI alongside the source. They show the behavior each project is designed to preserve.
 
-`AI Automation` · `Technical Solutions` · `APIs` · `Technical Implementation` · `Workflow Systems` · `Developer Experience`
+### Developer tools collection
 
-### Core stack
+| Project | Engineering question | Evidence to inspect |
+| --- | --- | --- |
+| [DX Orbit](https://github.com/Amyvdev1/dx-orbit) | Where does an API contract create integration friction? | Explainable scoring, JSON/YAML input, malformed-input checks, comparison reports |
+| [ToolTrust](https://github.com/Amyvdev1/tooltrust) | Should this tool call proceed? | Schema validation, permission and confirmation gates, readable replay traces |
+| [DevStart](https://github.com/Amyvdev1/devstart) | Can a developer recover from an API failure? | Six deterministic onboarding scenarios, recovery guidance, session benchmarks |
+| [HookForge](https://github.com/Amyvdev1/hookforge) | Does state survive duplicate and out-of-order delivery? | HMAC checks, duplicate protection, stale-event rejection, bounded simulations |
+| [SignalDesk](https://github.com/Amyvdev1/signaldesk) | Which documentation problem should a maintainer investigate next? | Feedback taxonomy, weighted priorities, resolution workflow, issue drafts |
 
-`TypeScript` · `React` · `Next.js` · `Python` · `FastAPI` · `REST APIs` · `SQLite` · `Testing` · `CI`
+These are runnable engineering labs with explicit limits. Simulated delivery and tool execution are labelled; fictional feedback is not customer research. They do not claim production adoption or measured business impact.
 
-### Engineering principles
+### More implementation evidence
 
-- Make system state explicit
-- Prefer predictable API contracts
-- Design useful failure and recovery paths
-- Keep automation inspectable
-- Separate implemented evidence from future production claims
+- **[MailTrace DX Lab](https://github.com/Amyvdev1/Amyvdev1-mailtrace-dx-lab):** signed webhooks, retries, idempotency, event ordering, and developer-facing debugging.
+- **[ForgeFlow AI Automation](https://github.com/Amyvdev1/forgeflow-ai-automation):** React/TypeScript, FastAPI, SQLite persistence, testing, Docker, and CI.
+- **[ClearRoute API](https://github.com/Amyvdev1/clearrout-api):** typed validation, explicit state transitions, predictable error contracts, and audit events.
+- **[AccessPath Console](https://github.com/Amyvdev1/accessible-workflow-console):** keyboard-first interaction, visible focus, recovery states, and accessibility checks.
+- **[Technical Portfolio / Signal Engine](https://github.com/Amyvdev1/amy-technical-portfolio):** an interactive review path connecting the product experience to source, tests, and implementation boundaries.
 
-### Links
+### How I approach engineering
 
-- [Technical Portfolio](https://amy-villa-signal-gallery.vercel.app/)
-- [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/)
+- Make inputs, state transitions, and failure paths explicit.
+- Validate before acting; keep permissions and human decisions inspectable.
+- Test the behavior that matters, including recovery and malformed requests.
+- Document what runs today and what production deployment would still require.
+
+**Working stack:** Python · FastAPI · Pydantic · JSON Schema · REST/OpenAPI · TypeScript · React · SQLite · pytest · Vitest · Docker · GitHub Actions
+
+**Role focus:** AI automation, technical solutions, API integration, developer experience, and implementation engineering.
