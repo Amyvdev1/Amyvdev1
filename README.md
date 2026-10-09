@@ -6,7 +6,7 @@ I build developer-facing systems that make complex workflows easier to integrate
 
 A system should explain what happened, why an action was allowed or blocked, how to recover, and which assumptions shape its value.
 
-**[Portfolio](https://amy-villa-signal-gallery.vercel.app/) · [Engineering evidence](https://amy-villa-signal-gallery.vercel.app/recruiter-proof) · [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/) · [Contact](mailto:amyv.dev@gmail.com)**
+**[Portfolio](https://amy-villa-signal-gallery.vercel.app/) · [Engineering evidence](https://amy-villa-signal-gallery.vercel.app/recruiter-proof) · [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/) · [Medium](https://medium.com/@amyv.dev) · [Contact](mailto:amyv.dev@gmail.com)**
 
 ## Flagship — SignalOS
 
