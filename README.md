@@ -25,6 +25,14 @@ One payment-launch investigation connects contract findings, an outdated quickst
 
 [Case study and console preview](https://amy-villa-signal-gallery.vercel.app/projects/signalos-developer-experience-platform) · [Architecture](https://github.com/Amyvdev1/signalos-developer-experience-platform/blob/main/docs/architecture.md) · [Engineering article](https://github.com/Amyvdev1/signalos-developer-experience-platform/blob/main/docs/engineering-note.md) · [Verification](https://github.com/Amyvdev1/signalos-developer-experience-platform/actions/workflows/verify.yml)
 
+## Security and integration reliability
+
+**[Webhook Trust Lab](https://github.com/Amyvdev1/webhook-trust-lab)** follows an event from HMAC verification and signed timestamps to persistent event identity and an atomic SQLite-local effect. Inspect 39 deterministic tests, concurrent delivery, rollback, a threat model, and nine recorded scenarios. [Case study and walkthrough](https://amy-villa-signal-gallery.vercel.app/projects/webhook-trust-lab).
+
+**[Olostep Integration Reliability Lab](https://github.com/Amyvdev1/olostep-integration-reliability-lab)** makes asynchronous batches, polling, pagination, partial results, and recovery explainable. Nine offline scenarios accompany a sanitized two-URL live compatibility check. [Case study and walkthrough](https://amy-villa-signal-gallery.vercel.app/projects/olostep-integration-reliability-lab).
+
+Both are independent reference projects. Local security behavior and a bounded live compatibility check do not establish production adoption or exactly-once remote effects.
+
 ## AI economics, controls & decision systems
 
 | Project | Purpose | Implementation to inspect |
