@@ -1,12 +1,30 @@
-# Amy Villa
+# Amy V
 
-### API systems · Developer experience · Inspectable automation
+### Technical writing · API reliability · Developer education
 
-I build developer-facing systems that make complex workflows easier to integrate, debug, and operate. My work connects API contracts, SDK behavior, failure recovery, agent permissions, and the evidence behind a technical decision.
+I build software and write the documentation that makes it usable. My work connects API contracts, SDK behavior, failure recovery, application security, and the decisions developers need to make along the way.
 
-A system should explain what happened, why an action was allowed or blocked, how to recover, and which assumptions shape its value.
+My approach starts with a working example: reproduce the behavior, test the difficult paths, explain the tradeoffs, and give the reader a clear next step. The result is a body of independent projects with source code, tests, technical reports, and walkthroughs you can inspect together.
 
 **[Portfolio](https://amy-villa-signal-gallery.vercel.app/) · [Engineering evidence](https://amy-villa-signal-gallery.vercel.app/recruiter-proof) · [LinkedIn](https://www.linkedin.com/in/amy-villa-5830aa433/) · [Medium](https://medium.com/@amyv.dev) · [Contact](mailto:amyv.dev@gmail.com)**
+
+## Start with the evidence
+
+| Explore | The question it answers | Review the work |
+| --- | --- | --- |
+| **API documentation — HookForge SDK** | Can a developer install, run, and evaluate an SDK from the documentation? | [Quickstart and examples](https://github.com/Amyvdev1/hookforge-sdk#readme) · [Developer-experience report](https://github.com/Amyvdev1/hookforge-sdk/blob/main/report.md) |
+| **Security explanation — Webhook Trust Lab** | Why does a valid signature still need freshness, event identity, and a transaction boundary? | [Implementation and tests](https://github.com/Amyvdev1/webhook-trust-lab) · [Case study and video](https://amy-villa-signal-gallery.vercel.app/projects/webhook-trust-lab) |
+| **Integration education — Olostep Reliability Lab** | What should an integration do when a batch is partial, interrupted, or uncertain? | [Recovery model](https://github.com/Amyvdev1/olostep-integration-reliability-lab/blob/main/docs/reliability-model.md) · [Case study and video](https://amy-villa-signal-gallery.vercel.app/projects/olostep-integration-reliability-lab) |
+
+For a five-minute review, choose one question, open its walkthrough, then compare the explanation with the implementation and tests. For the broader product architecture, explore SignalOS below.
+
+## Selected writing
+
+- **[Technical Work Is a Form of Translation](https://medium.com/@amyv.dev/technical-work-is-a-form-of-translation-8a54c98bf673)** — moving between code, product, operations, and human judgment.
+- **[The Hidden Economics of AI Automation](https://medium.com/@amyv.dev/the-hidden-economics-of-ai-automation-d6b04f46d816)** — examining why faster is not necessarily better.
+- **[The Most Important AI Product Feature May Be the Next Action](https://medium.com/@amyv.dev/the-most-important-ai-product-feature-may-be-the-next-action-9705fed201f0)** — making explanations useful at the moment a reader needs to act.
+
+[Read more on Medium →](https://medium.com/@amyv.dev)
 
 ## Flagship — SignalOS
 
@@ -35,6 +53,9 @@ Both are independent reference projects. Local security behavior and a bounded l
 
 ## AI economics, controls & decision systems
 
+<details>
+<summary>Explore five projects on cost, permissions, evidence, and onboarding</summary>
+
 | Project | Purpose | Implementation to inspect |
 | --- | --- | --- |
 | [AgentLedger](https://github.com/Amyvdev1/agentledger-economics) | AI Agent Economics and Decision Ledger | Model/tool/retry/review cost estimates, persistent events, unknown-cost propagation, human baseline and risk-adjusted value |
@@ -45,7 +66,12 @@ Both are independent reference projects. Local security behavior and a bounded l
 
 These five applications use React, Node 24 and SQLite, with local setup, tests, browser verification, reports, architecture notes and engineering articles. [Explore the collection](https://amy-villa-signal-gallery.vercel.app/recruiter-proof#decision-systems).
 
+</details>
+
 ## API & developer tools
+
+<details>
+<summary>Explore six API, SDK, and developer-experience projects</summary>
 
 | Project | Purpose | Implementation to inspect |
 | --- | --- | --- |
@@ -56,7 +82,12 @@ These five applications use React, Node 24 and SQLite, with local setup, tests, 
 | [SignalDesk](https://github.com/Amyvdev1/signaldesk) | Developer Feedback Intelligence | Structured friction and documentation feedback, prioritization, resolution and issue-draft export |
 | [HookForge SDK](https://github.com/Amyvdev1/hookforge-sdk) | TypeScript SDK & Generator Evaluation | MIT SDK generated with Voxgig, setup/examples, generated checks, local HTTP verification and a developer-experience report |
 
+</details>
+
 ## Full-stack systems & interface engineering
+
+<details>
+<summary>Explore workflow engineering, webhook debugging, and accessible interfaces</summary>
 
 | Project | Focus |
 | --- | --- |
@@ -65,16 +96,12 @@ These five applications use React, Node 24 and SQLite, with local setup, tests, 
 | [ClearRoute API](https://github.com/Amyvdev1/clearrout-api) | Typed validation, legal workflow transitions, predictable errors, audit events, tests and CI |
 | [AccessPath Console](https://github.com/Amyvdev1/accessible-workflow-console) | Keyboard-first workflows, semantic interfaces, visible focus, accessible recovery and accessibility checks |
 
+</details>
+
 ## Portfolio & supporting assets
 
 - **[Technical Portfolio / Signal Engine](https://github.com/Amyvdev1/amy-technical-portfolio):** a React/TypeScript review experience connecting project narratives, actual application previews, public source, tests and implementation boundaries. [Visit the website](https://amy-villa-signal-gallery.vercel.app/).
 - **[Portfolio Assets](https://github.com/Amyvdev1/amy-villa-portfolio-assets):** the supporting visual asset repository for the portfolio.
-
-## A useful five-minute review
-
-1. **Follow the whole integration:** start with SignalOS's payment investigation and compare its report with the source and tests.
-2. **Inspect one boundary deeply:** TrustBoundary for approval/idempotency; HookForge for delivery/recovery; DX Orbit for contract findings.
-3. **Challenge a decision:** change an assumption in AgentLedger or WorkflowROI, or inspect conflicting evidence in EvidenceGraph.
 
 ## Engineering principles
 
