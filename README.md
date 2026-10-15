@@ -26,6 +26,17 @@ For a five-minute review, choose one question, open its walkthrough, then compar
 
 [Read more on Medium →](https://medium.com/@amyv.dev)
 
+## Security and API reliability — six companion articles
+
+Two independent case studies connect code, tests, recorded walkthroughs, and technical writing. Each article is available online and as a designed PDF.
+
+- **[A Valid Signature Is Not Replay Protection](https://amy-villa-signal-gallery.vercel.app/writing/a-valid-signature-is-not-replay-protection/)** — Technical article.
+- **[From Signed Request to Safe Processing](https://amy-villa-signal-gallery.vercel.app/writing/from-signed-request-to-safe-processing/)** — Research brief.
+- **[Turning Security Evidence into Developer Action](https://amy-villa-signal-gallery.vercel.app/writing/turning-security-evidence-into-developer-action/)** — Editorial practice.
+- **[When Completed Is Not Complete](https://amy-villa-signal-gallery.vercel.app/writing/when-completed-is-not-complete/)** — Case study.
+- **[Recovery Without Duplicate Work](https://amy-villa-signal-gallery.vercel.app/writing/recovery-without-duplicate-work/)** — Engineering deep dive.
+- **[Document the Decision](https://amy-villa-signal-gallery.vercel.app/writing/document-the-decision/)** — Developer education.
+
 ## Flagship — SignalOS
 
 **[SignalOS — The Developer Experience Reliability Platform](https://github.com/Amyvdev1/signalos-developer-experience-platform)**
